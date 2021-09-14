@@ -89,7 +89,25 @@ for(let elm of btns) {
     }
 }
 function btnName(data){
-    console.log(data);
+    switch (data) {
+        case "apple":
+            console.log("apple");
+            break;
+        case "banana":
+          console.log("banana");
+          break;
+        case "strubbarey":
+          console.log("strubbarey");
+          break;
+        case "grap":
+          console.log("grap");
+          break;
+        case "orange":
+          console.log("orange");
+          break;
+      default:
+          break;
+      }
 }
 
 //targil 6
